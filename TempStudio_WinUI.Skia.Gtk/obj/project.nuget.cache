@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "AFYLYtEWd5XMSyCHaH7anDbGTnc1R4Hrp21gTGHz4CgAbOd0H8aFP6kuzBJVfb+stOTW8ggP0+2NPCpq9g/Zvw==",
+  "dgSpecHash": "jfI+9Can6aJWP6l9ZGY604vcVCdqMMgGfBSdjYE53MbGT+zVHMP3AK6ZfHpkbleAlNO7CV/ASeNRzGUWqdxGYA==",
   "success": true,
   "projectFilePath": "/home/riddermark/Riddermark/ToetsApps/TempStudio_WinUI/TempStudio_WinUI.Skia.Gtk/TempStudio_WinUI.Skia.Gtk.csproj",
   "expectedPackageFiles": [
     "/home/riddermark/.nuget/packages/atksharp/3.24.24.38/atksharp.3.24.24.38.nupkg.sha512",
     "/home/riddermark/.nuget/packages/cairosharp/3.24.24.38/cairosharp.3.24.24.38.nupkg.sha512",
     "/home/riddermark/.nuget/packages/commonservicelocator/2.0.5/commonservicelocator.2.0.5.nupkg.sha512",
+    "/home/riddermark/.nuget/packages/communitytoolkit.mvvm/8.1.0/communitytoolkit.mvvm.8.1.0.nupkg.sha512",
+    "/home/riddermark/.nuget/packages/communitytoolkit.winui.ui.controls/7.1.2/communitytoolkit.winui.ui.controls.7.1.2.nupkg.sha512",
     "/home/riddermark/.nuget/packages/gdksharp/3.24.24.38/gdksharp.3.24.24.38.nupkg.sha512",
     "/home/riddermark/.nuget/packages/giosharp/3.24.24.38/giosharp.3.24.24.38.nupkg.sha512",
     "/home/riddermark/.nuget/packages/glibsharp/3.24.24.38/glibsharp.3.24.24.38.nupkg.sha512",

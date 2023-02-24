@@ -1,7 +1,5 @@
-﻿using CommunityToolkit.WinUI.UI.Controls;
-
+﻿using CommunityToolkit.WinUI.UI.Controls.Co;
 using Microsoft.UI.Xaml.Controls;
-
 using TempStudio_WinUI.ViewModels;
 
 namespace TempStudio_WinUI.Views;

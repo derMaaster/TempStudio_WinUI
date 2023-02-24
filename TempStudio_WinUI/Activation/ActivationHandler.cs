@@ -1,4 +1,6 @@
-﻿namespace TempStudio_WinUI.Activation;
+﻿using System.Threading.Tasks;
+
+namespace TempStudio_WinUI.Activation;
 
 // Extend this class to implement new ActivationHandlers. See DefaultActivationHandler for an example.
 // https://github.com/microsoft/TemplateStudio/blob/main/docs/WinUI/activation.md

@@ -1,4 +1,6 @@
-﻿namespace TempStudio_WinUI.Activation;
+﻿using System.Threading.Tasks;
+
+namespace TempStudio_WinUI.Activation;
 
 public interface IActivationHandler
 {

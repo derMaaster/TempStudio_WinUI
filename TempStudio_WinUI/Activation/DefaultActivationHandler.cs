@@ -1,4 +1,5 @@
-﻿using Microsoft.UI.Xaml;
+﻿using System.Threading.Tasks;
+using Microsoft.UI.Xaml;
 
 using TempStudio_WinUI.Contracts.Services;
 using TempStudio_WinUI.ViewModels;

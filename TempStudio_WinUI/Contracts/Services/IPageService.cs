@@ -1,4 +1,6 @@
-﻿namespace TempStudio_WinUI.Contracts.Services;
+﻿using System;
+
+namespace TempStudio_WinUI.Contracts.Services;
 
 public interface IPageService
 {

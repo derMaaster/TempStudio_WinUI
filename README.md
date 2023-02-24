@@ -38,8 +38,15 @@ In TempStudio_WinUI:
     Assets
     Activation
 
+ Copied in folders from the TempStudio.WinUI.core project for references
+ 	Services
+ 	Models
+ 	Contracts
+
 
  Install Nuget Packages:
+ 	CommunityToolkit.Mvvm.ComponentModel
+	CommunityToolkit.WinUI.UI.Controls --version 7.1.2
 
 
  Add missing using statements.

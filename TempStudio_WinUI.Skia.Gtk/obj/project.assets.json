@@ -32,6 +32,25 @@
           "lib/netcoreapp3.0/CommonServiceLocator.dll": {}
         }
       },
+      "CommunityToolkit.Mvvm/8.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
+      "CommunityToolkit.WinUI.UI.Controls/7.1.2": {
+        "type": "package"
+      },
       "GdkSharp/3.24.24.38": {
         "type": "package",
         "dependencies": {
@@ -1371,6 +1390,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
+          "CommunityToolkit.Mvvm": "8.1.0",
+          "CommunityToolkit.WinUI.UI.Controls": "7.1.2",
           "Microsoft.Extensions.Logging.Console": "5.0.0",
           "Uno.Core.Extensions.Logging.Singleton": "4.0.1",
           "Uno.WinUI": "4.7.37"
@@ -1431,6 +1452,50 @@
         "lib/netstandard1.0/CommonServiceLocator.dll",
         "lib/netstandard2.0/CommonServiceLocator.dll",
         "lib/netstandard2.1/CommonServiceLocator.dll"
+      ]
+    },
+    "CommunityToolkit.Mvvm/8.1.0": {
+      "sha512": "xxOt7lu9a5kB5Fs9RfcxzVlKnhuuPe+w7AXHtmCFtS3oldrsUhEMxHfNulluXSscUUoGxZ0jh55Om12ZP6abHA==",
+      "type": "package",
+      "path": "communitytoolkit.mvvm/8.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "License.md",
+        "ThirdPartyNotices.txt",
+        "analyzers/dotnet/roslyn4.0/cs/CommunityToolkit.Mvvm.SourceGenerators.dll",
+        "analyzers/dotnet/roslyn4.3/cs/CommunityToolkit.Mvvm.SourceGenerators.dll",
+        "build/netstandard2.0/CommunityToolkit.Mvvm.targets",
+        "build/netstandard2.1/CommunityToolkit.Mvvm.targets",
+        "buildTransitive/netstandard2.0/CommunityToolkit.Mvvm.targets",
+        "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets",
+        "communitytoolkit.mvvm.8.1.0.nupkg.sha512",
+        "communitytoolkit.mvvm.nuspec",
+        "lib/net6.0/CommunityToolkit.Mvvm.dll",
+        "lib/net6.0/CommunityToolkit.Mvvm.pdb",
+        "lib/net6.0/CommunityToolkit.Mvvm.xml",
+        "lib/netstandard2.0/CommunityToolkit.Mvvm.dll",
+        "lib/netstandard2.0/CommunityToolkit.Mvvm.pdb",
+        "lib/netstandard2.0/CommunityToolkit.Mvvm.xml",
+        "lib/netstandard2.1/CommunityToolkit.Mvvm.dll",
+        "lib/netstandard2.1/CommunityToolkit.Mvvm.pdb",
+        "lib/netstandard2.1/CommunityToolkit.Mvvm.xml"
+      ]
+    },
+    "CommunityToolkit.WinUI.UI.Controls/7.1.2": {
+      "sha512": "+aDc1KqmlYM+HE0Mw5OnfQBOFhY0c7zp1aGz/4qs+1I+Xk8Ot3IRwvs8dYxBEGCD9YzE2OzaJLPztBpQ9JEWig==",
+      "type": "package",
+      "path": "communitytoolkit.winui.ui.controls/7.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "License.md",
+        "ReadMe.txt",
+        "ThirdPartyNotices.txt",
+        "communitytoolkit.winui.ui.controls.7.1.2.nupkg.sha512",
+        "communitytoolkit.winui.ui.controls.nuspec"
       ]
     },
     "GdkSharp/3.24.24.38": {
