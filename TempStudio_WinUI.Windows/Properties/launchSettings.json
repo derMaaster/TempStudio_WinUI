@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "TempStudio_WinUI.Windows": {
+      "commandName": "MsixPackage"
+    }
+  }
+}

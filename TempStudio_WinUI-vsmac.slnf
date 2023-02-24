@@ -1,0 +1,14 @@
+{
+  "solution": {
+    "path": "TempStudio_WinUI.sln",
+    "projects": [
+		"TempStudio_WinUI\\TempStudio_WinUI.csproj",
+
+
+
+		"TempStudio_WinUI.Skia.Gtk\\TempStudio_WinUI.Skia.Gtk.csproj",
+
+		"TempStudio_WinUI.Skia.Gtk\\TempStudio_WinUI.Skia.Gtk.csproj",
+    ]
+  }
+}

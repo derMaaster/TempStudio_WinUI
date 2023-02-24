@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Condition=" '$(TargetFramework)' == 'net7.0' AND '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)uno.sourcegenerationtasks/4.2.0/build/netstandard1.0/Uno.SourceGenerationTasks.targets" Condition="Exists('$(NuGetPackageRoot)uno.sourcegenerationtasks/4.2.0/build/netstandard1.0/Uno.SourceGenerationTasks.targets')" />
+    <Import Project="$(NuGetPackageRoot)uno.winui/4.7.37/buildTransitive/net7.0/uno.winui.targets" Condition="Exists('$(NuGetPackageRoot)uno.winui/4.7.37/buildTransitive/net7.0/uno.winui.targets')" />
+  </ImportGroup>
+</Project>
