@@ -19,26 +19,32 @@ On Debian PC - Create WinUI skia uno platform app:
 
 Create GitHub repo and first commit.
 
-Copy folders from base project (Windows created template project, ignoring the .core project) to the Debian based application, into the TempStudio_WinUI project folder:
-    Views
-    ViewModels
-    Services
-    Stylesi
-    Helpers
-    Contracts
-    Behaviors
-    Assets
-    Activation
-
-
 Added <EnableWindowsTargeting>true</EnableWindowsTargeting>  to TempStudio_WinUI.Windows.csproj
+Select TempStudio_WinUI.Skia.Gtk as the startup project.
 
-Install Nuget Packages:
+In TempStudio_WinUI:
+	Delete the "Debug (Chrome, WebAssembly)" configuration in launch.json
+	Change net6.0 to net7.0 in launch.json for the "program" detail.
+	Launch the app - the Hello World window loads correctly.  - commit.
+
+	Copy folders from base project (Windows created template project, ignoring the .core project) to the Debian based application, into the TempStudio_WinUI project folder:
+    	Views
+	    ViewModels
+	    Services
+	    Stylesi
+	    Helpers
+	    Contracts
+	    Behaviors
+	    Assets
+	    Activation
 
 
-Add missing using statements.
+	Install Nuget Packages:
 
-Problems remaining:
 
-    NavigationViewHeaderBehavior.cs
-        using Microsoft.Xaml.Interactivity  - struggling to get the correct replacement
+	Add missing using statements.
+
+	Problems remaining:
+
+    	NavigationViewHeaderBehavior.cs
+        	using Microsoft.Xaml.Interactivity  - struggling to get the correct replacement
