@@ -1,0 +1,44 @@
+# TempStudio_WinUI
+An attempt to "port" a Windows Visual Studio created Template Studio WinUI app to a Debian based Uno-Platform WinUI app with as little as possible changes.
+
+ TempStudio_WinUI
+Attemp to "port" a Template Studio WinUI app from Windows PC and Visual Studio 22 to Debian VS Code with Uno Platform
+
+
+I don't want to (don't know if I can) reinvent the wheel in terms of navigation. Therefore I am trying to port a Windows based, Visual Studio 22
+Template Studio WinUI application example to a Debian based VSCode with the Uno Platform.
+
+Steps:
+
+On Windows PC - selection for new Template Studio WinUI app:
+  MVVM
+  Main Page plus List Details Page
+
+On Debian PC - Create WinUI skia uno platform app:
+  dotnet new unoapp -o TempStudio_WinUI -wasm=false -wpm=false -mobile=false -sw=false -slf=false -vs=true
+
+Create GitHub repo and first commit.
+
+Copy folders from base project (Windows created template project, ignoring the .core project) to the Debian based application, into the TempStudio_WinUI project folder:
+    Views
+    ViewModels
+    Services
+    Stylesi
+    Helpers
+    Contracts
+    Behaviors
+    Assets
+    Activation
+
+
+Added <EnableWindowsTargeting>true</EnableWindowsTargeting>  to TempStudio_WinUI.Windows.csproj
+
+Install Nuget Packages:
+
+
+Add missing using statements.
+
+Problems remaining:
+
+    NavigationViewHeaderBehavior.cs
+        using Microsoft.Xaml.Interactivity  - struggling to get the correct replacement
