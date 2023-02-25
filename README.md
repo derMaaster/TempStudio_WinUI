@@ -26,7 +26,7 @@ In TempStudio_WinUI:
 	Delete the "Debug (Chrome, WebAssembly)" configuration in launch.json
 	Change net6.0 to net7.0 in launch.json for the "program" detail.
 	Launch the app - the Hello World window loads correctly.  - commit.
-
+
  Copy folders from base project (Windows created template project, ignoring the .core project) to the Debian based application, into the TempStudio_WinUI project folder:
    	Views
     ViewModels
@@ -50,7 +50,8 @@ In TempStudio_WinUI:
 
 
  Add missing using statements.
-
+ Modified with App.cs file.
+ Delete original MainPage.xaml and Mainpage.xaml.cs
  Problems remaining:
 
 
