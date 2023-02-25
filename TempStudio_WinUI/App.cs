@@ -6,6 +6,19 @@ using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
 using Microsoft.UI.Xaml.Navigation;
 
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+
+using TempStudio_WinUI.Activation;
+using TempStudio_WinUI.Contracts.Services;
+using TempStudio_WinUI.Core.Contracts.Services;
+using TempStudio_WinUI.Core.Services;
+using TempStudio_WinUI.Helpers;
+using TempStudio_WinUI.Services;
+using TempStudio_WinUI.ViewModels;
+using TempStudio_WinUI.Views;
+
+
 namespace TempStudio_WinUI;
 
 /// <summary>
@@ -21,14 +34,69 @@ public partial class App : Application
 	/// If you're looking for App.xaml.cs, the file is present in each platform head
 	/// of the solution.
 	/// </remarks>
-	public App()
-	{
-	}
 
+
+	  // Default Activation Handler
+	
+
+
+
+
+
+  	public IHost Host { get; }
+	
 	/// <summary>
 	/// Gets the main window of the app.
 	/// </summary>
 	internal static Window MainWindow { get; private set; }
+
+
+
+	public App()
+	{
+		Host = Microsoft.Extensions.Hosting.Host.
+        CreateDefaultBuilder().
+        UseContentRoot(AppContext.BaseDirectory).
+        ConfigureServices((context, services) =>
+        {
+            // Default Activation Handler
+            services.AddTransient<ActivationHandler<LaunchActivatedEventArgs>, DefaultActivationHandler>();
+
+            // Other Activation Handlers
+
+            // Services
+            services.AddTransient<INavigationViewService, NavigationViewService>();
+
+            services.AddSingleton<IActivationService, ActivationService>();
+            services.AddSingleton<IPageService, PageService>();
+            services.AddSingleton<INavigationService, NavigationService>();
+
+            // Core Services
+            services.AddSingleton<ISampleDataService, SampleDataService>();
+            services.AddSingleton<IFileService, FileService>();
+
+            // Views and ViewModels
+            services.AddTransient<ListDetailsViewModel>();
+            services.AddTransient<ListDetailsPage>();
+            services.AddTransient<MainViewModel>();
+            services.AddTransient<MainPage>();
+            services.AddTransient<ShellPage>();
+            services.AddTransient<ShellViewModel>();
+
+            // Configuration
+        }).
+        Build();
+        UnhandledException += App_UnhandledException;
+	}
+
+	public static T GetService<T>()
+		where T : class
+    {
+        if ((App.Current as App)!.Host.Services.GetService(typeof(T)) is not T service)
+        {
+            throw new ArgumentException($"{typeof(T)} needs to be registered in ConfigureServices within App.xaml.cs.");
+        }
+	}
 
 	/// <summary>
 	/// Invoked when the application is launched normally by the end user.  Other entry points

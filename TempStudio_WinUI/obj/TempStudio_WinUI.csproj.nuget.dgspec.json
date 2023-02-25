@@ -47,9 +47,9 @@
               "target": "Package",
               "version": "[7.1.2, )"
             },
-            "Microsoft.Extensions.Logging.Console": {
+            "Microsoft.Extensions.Hosting": {
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[7.0.1, )"
             },
             "Uno.Core.Extensions.Logging.Singleton": {
               "target": "Package",
@@ -76,7 +76,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.200/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.201/RuntimeIdentifierGraph.json"
         }
       }
     }
