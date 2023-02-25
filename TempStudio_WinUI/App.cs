@@ -44,7 +44,7 @@ public partial class App : Application
 
 
   	public IHost Host { get; }
-	
+
 	/// <summary>
 	/// Gets the main window of the app.
 	/// </summary>
@@ -84,19 +84,28 @@ public partial class App : Application
             services.AddTransient<ShellViewModel>();
 
             // Configuration
+
+
         }).
         Build();
         UnhandledException += App_UnhandledException;
 	}
-
 	public static T GetService<T>()
 		where T : class
     {
         if ((App.Current as App)!.Host.Services.GetService(typeof(T)) is not T service)
         {
-            throw new ArgumentException($"{typeof(T)} needs to be registered in ConfigureServices within App.xaml.cs.");
+            throw new ArgumentException($"{typeof(T)} needs to be registered in ConfigureServices within App.cs.");
         }
-	}
+		return service;
+    }
+    private void App_UnhandledException(object sender, Microsoft.UI.Xaml.UnhandledExceptionEventArgs e)
+    {
+        // TODO: Log and handle exceptions as appropriate.
+        // https://docs.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.application.unhandledexception.
+    }
+
+
 
 	/// <summary>
 	/// Invoked when the application is launched normally by the end user.  Other entry points
@@ -125,7 +134,6 @@ public partial class App : Application
 		{
 			// Create a Frame to act as the navigation context and navigate to the first page
 			rootFrame = new Frame();
-
 			rootFrame.NavigationFailed += OnNavigationFailed;
 
 			if (args.UWPLaunchActivatedEventArgs.PreviousExecutionState == ApplicationExecutionState.Terminated)
@@ -146,7 +154,10 @@ public partial class App : Application
 				// When the navigation stack isn't restored navigate to the first page,
 				// configuring the new page by passing required information as a navigation
 				// parameter
-				rootFrame.Navigate(typeof(MainPage), args.Arguments);
+				// rootFrame.Navigate(typeof(MainPage), args.Arguments);
+
+				base.OnLaunched(args);
+				await App.GetService<IActivationService>().ActivateAsync(args);
 			}
 			// Ensure the current window is active
 			MainWindow.Activate();
