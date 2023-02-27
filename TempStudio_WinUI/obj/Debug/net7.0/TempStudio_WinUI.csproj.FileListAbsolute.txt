@@ -10,3 +10,4 @@
 /home/riddermark/Riddermark/ToetsApps/TempStudio_WinUI/TempStudio_WinUI/obj/Debug/net7.0/refint/TempStudio_WinUI.dll
 /home/riddermark/Riddermark/ToetsApps/TempStudio_WinUI/TempStudio_WinUI/obj/Debug/net7.0/TempStudio_WinUI.pdb
 /home/riddermark/Riddermark/ToetsApps/TempStudio_WinUI/TempStudio_WinUI/obj/Debug/net7.0/ref/TempStudio_WinUI.dll
+/home/riddermark/Riddermark/ToetsApps/TempStudio_WinUI/TempStudio_WinUI/bin/Debug/net7.0/TempStudio_WinUI/Assets/WindowIcon.ico

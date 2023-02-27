@@ -617,26 +617,28 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Logging.Console/5.0.0": {
+      "Microsoft.Extensions.Logging.Console/7.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "5.0.0",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0",
-          "Microsoft.Extensions.Logging": "5.0.0",
-          "Microsoft.Extensions.Logging.Abstractions": "5.0.0",
-          "Microsoft.Extensions.Logging.Configuration": "5.0.0",
-          "Microsoft.Extensions.Options": "5.0.0",
-          "Microsoft.Extensions.Options.ConfigurationExtensions": "5.0.0"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0",
+          "Microsoft.Extensions.Logging": "7.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "7.0.0",
+          "Microsoft.Extensions.Logging.Configuration": "7.0.0",
+          "Microsoft.Extensions.Options": "7.0.0",
+          "System.Text.Json": "7.0.0"
         },
         "compile": {
-          "lib/netcoreapp3.0/Microsoft.Extensions.Logging.Console.dll": {
+          "lib/net7.0/Microsoft.Extensions.Logging.Console.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netcoreapp3.0/Microsoft.Extensions.Logging.Console.dll": {
+          "lib/net7.0/Microsoft.Extensions.Logging.Console.dll": {
             "related": ".xml"
           }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
         }
       },
       "Microsoft.Extensions.Logging.Debug/7.0.0": {
@@ -2999,26 +3001,31 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.Extensions.Logging.Console/5.0.0": {
-      "sha512": "jH0wbWhfvXjOVmCkbra4vbiovDtTUIWLQjCeJ7Xun3h4AHvwfzm7V7wlsXKs3tNnPrsCxZ9oaV0vUAgGY1JxOA==",
+    "Microsoft.Extensions.Logging.Console/7.0.0": {
+      "sha512": "qt5n8bHLZPUfuRnFxJKW5q9ZwOTncdh96rtWzWpX3Y/064MlxzCSw2ELF5Jlwdo+Y4wK3I47NmUTFsV7Sg8rqg==",
       "type": "package",
-      "path": "microsoft.extensions.logging.console/5.0.0",
+      "path": "microsoft.extensions.logging.console/7.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
-        "lib/net461/Microsoft.Extensions.Logging.Console.dll",
-        "lib/net461/Microsoft.Extensions.Logging.Console.xml",
-        "lib/netcoreapp3.0/Microsoft.Extensions.Logging.Console.dll",
-        "lib/netcoreapp3.0/Microsoft.Extensions.Logging.Console.xml",
+        "buildTransitive/net461/Microsoft.Extensions.Logging.Console.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Logging.Console.targets",
+        "lib/net462/Microsoft.Extensions.Logging.Console.dll",
+        "lib/net462/Microsoft.Extensions.Logging.Console.xml",
+        "lib/net6.0/Microsoft.Extensions.Logging.Console.dll",
+        "lib/net6.0/Microsoft.Extensions.Logging.Console.xml",
+        "lib/net7.0/Microsoft.Extensions.Logging.Console.dll",
+        "lib/net7.0/Microsoft.Extensions.Logging.Console.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Logging.Console.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Logging.Console.xml",
-        "microsoft.extensions.logging.console.5.0.0.nupkg.sha512",
+        "microsoft.extensions.logging.console.7.0.0.nupkg.sha512",
         "microsoft.extensions.logging.console.nuspec",
-        "useSharedDesignerContext.txt",
-        "version.txt"
+        "useSharedDesignerContext.txt"
       ]
     },
     "Microsoft.Extensions.Logging.Debug/7.0.0": {
@@ -7578,7 +7585,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "Microsoft.Extensions.Logging.Console >= 5.0.0",
+      "Microsoft.Extensions.Logging.Console >= 7.0.0",
       "SkiaSharp.Skottie >= 2.88.3",
       "SkiaSharp.Views.Uno.WinUI >= 2.88.3",
       "TempStudio_WinUI >= 1.0.0",
@@ -7589,19 +7596,19 @@
     ]
   },
   "packageFolders": {
-    "/home/allstar/.nuget/packages/": {}
+    "/home/riddermark/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/allstar/Riddermark/ToetsApps/TempStudio_WinUI/TempStudio_WinUI.Skia.Gtk/TempStudio_WinUI.Skia.Gtk.csproj",
+      "projectUniqueName": "/home/riddermark/Riddermark/ToetsApps/TempStudio_WinUI/TempStudio_WinUI.Skia.Gtk/TempStudio_WinUI.Skia.Gtk.csproj",
       "projectName": "TempStudio_WinUI.Skia.Gtk",
-      "projectPath": "/home/allstar/Riddermark/ToetsApps/TempStudio_WinUI/TempStudio_WinUI.Skia.Gtk/TempStudio_WinUI.Skia.Gtk.csproj",
-      "packagesPath": "/home/allstar/.nuget/packages/",
-      "outputPath": "/home/allstar/Riddermark/ToetsApps/TempStudio_WinUI/TempStudio_WinUI.Skia.Gtk/obj/",
+      "projectPath": "/home/riddermark/Riddermark/ToetsApps/TempStudio_WinUI/TempStudio_WinUI.Skia.Gtk/TempStudio_WinUI.Skia.Gtk.csproj",
+      "packagesPath": "/home/riddermark/.nuget/packages/",
+      "outputPath": "/home/riddermark/Riddermark/ToetsApps/TempStudio_WinUI/TempStudio_WinUI.Skia.Gtk/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/allstar/.nuget/NuGet/NuGet.Config"
+        "/home/riddermark/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -7613,8 +7620,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "/home/allstar/Riddermark/ToetsApps/TempStudio_WinUI/TempStudio_WinUI/TempStudio_WinUI.csproj": {
-              "projectPath": "/home/allstar/Riddermark/ToetsApps/TempStudio_WinUI/TempStudio_WinUI/TempStudio_WinUI.csproj"
+            "/home/riddermark/Riddermark/ToetsApps/TempStudio_WinUI/TempStudio_WinUI/TempStudio_WinUI.csproj": {
+              "projectPath": "/home/riddermark/Riddermark/ToetsApps/TempStudio_WinUI/TempStudio_WinUI/TempStudio_WinUI.csproj"
             }
           }
         }
@@ -7631,7 +7638,7 @@
         "dependencies": {
           "Microsoft.Extensions.Logging.Console": {
             "target": "Package",
-            "version": "[5.0.0, )"
+            "version": "[7.0.0, )"
           },
           "SkiaSharp.Skottie": {
             "target": "Package",
@@ -7677,16 +7684,5 @@
         "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.201/RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Warning As Error: Detected package downgrade: Microsoft.Extensions.Logging.Console from 7.0.0 to 5.0.0. Reference the package directly from the project to select a different version. \n TempStudio_WinUI.Skia.Gtk -> TempStudio_WinUI -> Microsoft.Extensions.Hosting 7.0.1 -> Microsoft.Extensions.Logging.Console (>= 7.0.0) \n TempStudio_WinUI.Skia.Gtk -> Microsoft.Extensions.Logging.Console (>= 5.0.0)",
-      "libraryId": "Microsoft.Extensions.Logging.Console",
-      "targetGraphs": [
-        "net7.0"
-      ]
-    }
-  ]
+  }
 }

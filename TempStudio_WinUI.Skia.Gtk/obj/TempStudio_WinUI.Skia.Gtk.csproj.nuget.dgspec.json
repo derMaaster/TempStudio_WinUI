@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/allstar/Riddermark/ToetsApps/TempStudio_WinUI/TempStudio_WinUI.Skia.Gtk/TempStudio_WinUI.Skia.Gtk.csproj": {}
+    "/home/riddermark/Riddermark/ToetsApps/TempStudio_WinUI/TempStudio_WinUI.Skia.Gtk/TempStudio_WinUI.Skia.Gtk.csproj": {}
   },
   "projects": {
-    "/home/allstar/Riddermark/ToetsApps/TempStudio_WinUI/TempStudio_WinUI.Skia.Gtk/TempStudio_WinUI.Skia.Gtk.csproj": {
+    "/home/riddermark/Riddermark/ToetsApps/TempStudio_WinUI/TempStudio_WinUI.Skia.Gtk/TempStudio_WinUI.Skia.Gtk.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/allstar/Riddermark/ToetsApps/TempStudio_WinUI/TempStudio_WinUI.Skia.Gtk/TempStudio_WinUI.Skia.Gtk.csproj",
+        "projectUniqueName": "/home/riddermark/Riddermark/ToetsApps/TempStudio_WinUI/TempStudio_WinUI.Skia.Gtk/TempStudio_WinUI.Skia.Gtk.csproj",
         "projectName": "TempStudio_WinUI.Skia.Gtk",
-        "projectPath": "/home/allstar/Riddermark/ToetsApps/TempStudio_WinUI/TempStudio_WinUI.Skia.Gtk/TempStudio_WinUI.Skia.Gtk.csproj",
-        "packagesPath": "/home/allstar/.nuget/packages/",
-        "outputPath": "/home/allstar/Riddermark/ToetsApps/TempStudio_WinUI/TempStudio_WinUI.Skia.Gtk/obj/",
+        "projectPath": "/home/riddermark/Riddermark/ToetsApps/TempStudio_WinUI/TempStudio_WinUI.Skia.Gtk/TempStudio_WinUI.Skia.Gtk.csproj",
+        "packagesPath": "/home/riddermark/.nuget/packages/",
+        "outputPath": "/home/riddermark/Riddermark/ToetsApps/TempStudio_WinUI/TempStudio_WinUI.Skia.Gtk/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/allstar/.nuget/NuGet/NuGet.Config"
+          "/home/riddermark/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -26,8 +26,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/home/allstar/Riddermark/ToetsApps/TempStudio_WinUI/TempStudio_WinUI/TempStudio_WinUI.csproj": {
-                "projectPath": "/home/allstar/Riddermark/ToetsApps/TempStudio_WinUI/TempStudio_WinUI/TempStudio_WinUI.csproj"
+              "/home/riddermark/Riddermark/ToetsApps/TempStudio_WinUI/TempStudio_WinUI/TempStudio_WinUI.csproj": {
+                "projectPath": "/home/riddermark/Riddermark/ToetsApps/TempStudio_WinUI/TempStudio_WinUI/TempStudio_WinUI.csproj"
               }
             }
           }
@@ -44,7 +44,7 @@
           "dependencies": {
             "Microsoft.Extensions.Logging.Console": {
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[7.0.0, )"
             },
             "SkiaSharp.Skottie": {
               "target": "Package",
@@ -91,18 +91,18 @@
         }
       }
     },
-    "/home/allstar/Riddermark/ToetsApps/TempStudio_WinUI/TempStudio_WinUI/TempStudio_WinUI.csproj": {
+    "/home/riddermark/Riddermark/ToetsApps/TempStudio_WinUI/TempStudio_WinUI/TempStudio_WinUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/allstar/Riddermark/ToetsApps/TempStudio_WinUI/TempStudio_WinUI/TempStudio_WinUI.csproj",
+        "projectUniqueName": "/home/riddermark/Riddermark/ToetsApps/TempStudio_WinUI/TempStudio_WinUI/TempStudio_WinUI.csproj",
         "projectName": "TempStudio_WinUI",
-        "projectPath": "/home/allstar/Riddermark/ToetsApps/TempStudio_WinUI/TempStudio_WinUI/TempStudio_WinUI.csproj",
-        "packagesPath": "/home/allstar/.nuget/packages/",
-        "outputPath": "/home/allstar/Riddermark/ToetsApps/TempStudio_WinUI/TempStudio_WinUI/obj/",
+        "projectPath": "/home/riddermark/Riddermark/ToetsApps/TempStudio_WinUI/TempStudio_WinUI/TempStudio_WinUI.csproj",
+        "packagesPath": "/home/riddermark/.nuget/packages/",
+        "outputPath": "/home/riddermark/Riddermark/ToetsApps/TempStudio_WinUI/TempStudio_WinUI/obj/",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "configFilePaths": [
-          "/home/allstar/.nuget/NuGet/NuGet.Config"
+          "/home/riddermark/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"

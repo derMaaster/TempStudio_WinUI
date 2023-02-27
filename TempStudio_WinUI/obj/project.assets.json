@@ -5367,20 +5367,20 @@
     ]
   },
   "packageFolders": {
-    "/home/allstar/.nuget/packages/": {}
+    "/home/riddermark/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/allstar/Riddermark/ToetsApps/TempStudio_WinUI/TempStudio_WinUI/TempStudio_WinUI.csproj",
+      "projectUniqueName": "/home/riddermark/Riddermark/ToetsApps/TempStudio_WinUI/TempStudio_WinUI/TempStudio_WinUI.csproj",
       "projectName": "TempStudio_WinUI",
-      "projectPath": "/home/allstar/Riddermark/ToetsApps/TempStudio_WinUI/TempStudio_WinUI/TempStudio_WinUI.csproj",
-      "packagesPath": "/home/allstar/.nuget/packages/",
-      "outputPath": "/home/allstar/Riddermark/ToetsApps/TempStudio_WinUI/TempStudio_WinUI/obj/",
+      "projectPath": "/home/riddermark/Riddermark/ToetsApps/TempStudio_WinUI/TempStudio_WinUI/TempStudio_WinUI.csproj",
+      "packagesPath": "/home/riddermark/.nuget/packages/",
+      "outputPath": "/home/riddermark/Riddermark/ToetsApps/TempStudio_WinUI/TempStudio_WinUI/obj/",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "configFilePaths": [
-        "/home/allstar/.nuget/NuGet/NuGet.Config"
+        "/home/riddermark/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
