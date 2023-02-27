@@ -60,7 +60,7 @@ public partial class App : Application
         ConfigureServices((context, services) =>
         {
             // Default Activation Handler
-            services.AddTransient<ActivationHandler<LaunchActivatedEventArgs>, DefaultActivationHandler>();
+            services.AddTransient<ActivationHandler<Microsoft.UI.Xaml.LaunchActivatedEventArgs>, DefaultActivationHandler>();
 
             // Other Activation Handlers
 
@@ -112,7 +112,7 @@ public partial class App : Application
 	/// will be used such as when the application is launched to open a specific file.
 	/// </summary>
 	/// <param name="args">Details about the launch request and process.</param>
-	protected override void OnLaunched(Microsoft.UI.Xaml.LaunchActivatedEventArgs args)
+	protected async override void OnLaunched(Microsoft.UI.Xaml.LaunchActivatedEventArgs args)
 	{
 #if DEBUG
 		if (System.Diagnostics.Debugger.IsAttached)

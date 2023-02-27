@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/riddermark/Riddermark/ToetsApps/TempStudio_WinUI/TempStudio_WinUI.Skia.Gtk/TempStudio_WinUI.Skia.Gtk.csproj": {}
+    "/home/allstar/Riddermark/ToetsApps/TempStudio_WinUI/TempStudio_WinUI.Skia.Gtk/TempStudio_WinUI.Skia.Gtk.csproj": {}
   },
   "projects": {
-    "/home/riddermark/Riddermark/ToetsApps/TempStudio_WinUI/TempStudio_WinUI.Skia.Gtk/TempStudio_WinUI.Skia.Gtk.csproj": {
+    "/home/allstar/Riddermark/ToetsApps/TempStudio_WinUI/TempStudio_WinUI.Skia.Gtk/TempStudio_WinUI.Skia.Gtk.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/riddermark/Riddermark/ToetsApps/TempStudio_WinUI/TempStudio_WinUI.Skia.Gtk/TempStudio_WinUI.Skia.Gtk.csproj",
+        "projectUniqueName": "/home/allstar/Riddermark/ToetsApps/TempStudio_WinUI/TempStudio_WinUI.Skia.Gtk/TempStudio_WinUI.Skia.Gtk.csproj",
         "projectName": "TempStudio_WinUI.Skia.Gtk",
-        "projectPath": "/home/riddermark/Riddermark/ToetsApps/TempStudio_WinUI/TempStudio_WinUI.Skia.Gtk/TempStudio_WinUI.Skia.Gtk.csproj",
-        "packagesPath": "/home/riddermark/.nuget/packages/",
-        "outputPath": "/home/riddermark/Riddermark/ToetsApps/TempStudio_WinUI/TempStudio_WinUI.Skia.Gtk/obj/",
+        "projectPath": "/home/allstar/Riddermark/ToetsApps/TempStudio_WinUI/TempStudio_WinUI.Skia.Gtk/TempStudio_WinUI.Skia.Gtk.csproj",
+        "packagesPath": "/home/allstar/.nuget/packages/",
+        "outputPath": "/home/allstar/Riddermark/ToetsApps/TempStudio_WinUI/TempStudio_WinUI.Skia.Gtk/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/riddermark/.nuget/NuGet/NuGet.Config"
+          "/home/allstar/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -26,8 +26,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/home/riddermark/Riddermark/ToetsApps/TempStudio_WinUI/TempStudio_WinUI/TempStudio_WinUI.csproj": {
-                "projectPath": "/home/riddermark/Riddermark/ToetsApps/TempStudio_WinUI/TempStudio_WinUI/TempStudio_WinUI.csproj"
+              "/home/allstar/Riddermark/ToetsApps/TempStudio_WinUI/TempStudio_WinUI/TempStudio_WinUI.csproj": {
+                "projectPath": "/home/allstar/Riddermark/ToetsApps/TempStudio_WinUI/TempStudio_WinUI/TempStudio_WinUI.csproj"
               }
             }
           }
@@ -91,18 +91,18 @@
         }
       }
     },
-    "/home/riddermark/Riddermark/ToetsApps/TempStudio_WinUI/TempStudio_WinUI/TempStudio_WinUI.csproj": {
+    "/home/allstar/Riddermark/ToetsApps/TempStudio_WinUI/TempStudio_WinUI/TempStudio_WinUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/riddermark/Riddermark/ToetsApps/TempStudio_WinUI/TempStudio_WinUI/TempStudio_WinUI.csproj",
+        "projectUniqueName": "/home/allstar/Riddermark/ToetsApps/TempStudio_WinUI/TempStudio_WinUI/TempStudio_WinUI.csproj",
         "projectName": "TempStudio_WinUI",
-        "projectPath": "/home/riddermark/Riddermark/ToetsApps/TempStudio_WinUI/TempStudio_WinUI/TempStudio_WinUI.csproj",
-        "packagesPath": "/home/riddermark/.nuget/packages/",
-        "outputPath": "/home/riddermark/Riddermark/ToetsApps/TempStudio_WinUI/TempStudio_WinUI/obj/",
+        "projectPath": "/home/allstar/Riddermark/ToetsApps/TempStudio_WinUI/TempStudio_WinUI/TempStudio_WinUI.csproj",
+        "packagesPath": "/home/allstar/.nuget/packages/",
+        "outputPath": "/home/allstar/Riddermark/ToetsApps/TempStudio_WinUI/TempStudio_WinUI/obj/",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "configFilePaths": [
-          "/home/riddermark/.nuget/NuGet/NuGet.Config"
+          "/home/allstar/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -137,6 +137,18 @@
             "Microsoft.Extensions.Hosting": {
               "target": "Package",
               "version": "[7.0.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
+            },
+            "Uno.CommunityToolkit.WinUI.UI.Behaviors": {
+              "target": "Package",
+              "version": "[7.1.100, )"
+            },
+            "Uno.CommunityToolkit.WinUI.UI.Controls": {
+              "target": "Package",
+              "version": "[7.1.100, )"
             },
             "Uno.Core.Extensions.Logging.Singleton": {
               "target": "Package",

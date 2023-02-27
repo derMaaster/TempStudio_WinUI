@@ -1,4 +1,6 @@
 ﻿using TempStudio_WinUI.Core.Models;
+using System.Threading.Tasks;
+using System.Collections.Generic;
 
 namespace TempStudio_WinUI.Core.Contracts.Services;
 

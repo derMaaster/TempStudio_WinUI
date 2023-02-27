@@ -1,5 +1,5 @@
 ﻿using System.Collections.ObjectModel;
-
+using System.Linq;
 using CommunityToolkit.Mvvm.ComponentModel;
 
 using TempStudio_WinUI.Contracts.ViewModels;

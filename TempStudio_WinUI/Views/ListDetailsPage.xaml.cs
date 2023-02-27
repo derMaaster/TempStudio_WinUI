@@ -1,4 +1,4 @@
-﻿using CommunityToolkit.WinUI.UI.Controls.Co;
+﻿using CommunityToolkit.WinUI.UI.Controls;
 using Microsoft.UI.Xaml.Controls;
 using TempStudio_WinUI.ViewModels;
 

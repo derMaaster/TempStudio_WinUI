@@ -47,6 +47,10 @@ In TempStudio_WinUI:
  Install Nuget Packages:
  	CommunityToolkit.Mvvm.ComponentModel
 	CommunityToolkit.WinUI.UI.Controls --version 7.1.2
+	Uno.CommunityToolkit.WinUI.UI.Behaviors  - the non Uno version is incompatible with all frameworks in the project.
+		This is in order to use the namespace - Microsoft.Xaml.Interactivity;
+	Uno.CommunityToolkit.WinUI.UI.Control
+	Newtonsoft.Json
 
 
  Add missing using statements.
