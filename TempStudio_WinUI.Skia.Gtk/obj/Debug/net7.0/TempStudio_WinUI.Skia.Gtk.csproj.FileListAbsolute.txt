@@ -138,3 +138,6 @@
 /home/riddermark/Riddermark/ToetsApps/TempStudio_WinUI/TempStudio_WinUI.Skia.Gtk/bin/Debug/net7.0/Microsoft.Xaml.Interactions.dll
 /home/riddermark/Riddermark/ToetsApps/TempStudio_WinUI/TempStudio_WinUI.Skia.Gtk/bin/Debug/net7.0/runtimes/win/lib/net7.0/System.Diagnostics.EventLog.Messages.dll
 /home/riddermark/Riddermark/ToetsApps/TempStudio_WinUI/TempStudio_WinUI.Skia.Gtk/bin/Debug/net7.0/runtimes/win/lib/net7.0/System.Diagnostics.EventLog.dll
+/home/allstar/Riddermark/ToetsApps/TempStudio_WinUI/TempStudio_WinUI.Skia.Gtk/obj/Debug/net7.0/TempStudio_WinUI.Skia.Gtk.dll
+/home/allstar/Riddermark/ToetsApps/TempStudio_WinUI/TempStudio_WinUI.Skia.Gtk/obj/Debug/net7.0/refint/TempStudio_WinUI.Skia.Gtk.dll
+/home/allstar/Riddermark/ToetsApps/TempStudio_WinUI/TempStudio_WinUI.Skia.Gtk/obj/Debug/net7.0/TempStudio_WinUI.Skia.Gtk.pdb

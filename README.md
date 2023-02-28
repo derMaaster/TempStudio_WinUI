@@ -61,7 +61,4 @@ In TempStudio_WinUI:
 
  Commented out in ShellPage.xaml.cs:
  	App.MainWindow.Activated += MainWindow_Activated;
-	As well as the void MainWindo_Activated - Uno extension of and Microsoft.UI.Xaml.WindowActivatedEventArgs differs significantly it seems.
-
- NavigationViewHeaderBehavior.cs
-        	using Microsoft.Xaml.Interactivity  - struggling to get the correct replacement
+	As well as the void MainWindow_Activated - Uno extension of and Microsoft.UI.Xaml.WindowActivatedEventArgs differs significantly it seems.

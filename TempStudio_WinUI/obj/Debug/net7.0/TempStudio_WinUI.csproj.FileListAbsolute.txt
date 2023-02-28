@@ -11,3 +11,11 @@
 /home/riddermark/Riddermark/ToetsApps/TempStudio_WinUI/TempStudio_WinUI/obj/Debug/net7.0/TempStudio_WinUI.pdb
 /home/riddermark/Riddermark/ToetsApps/TempStudio_WinUI/TempStudio_WinUI/obj/Debug/net7.0/ref/TempStudio_WinUI.dll
 /home/riddermark/Riddermark/ToetsApps/TempStudio_WinUI/TempStudio_WinUI/bin/Debug/net7.0/TempStudio_WinUI/Assets/WindowIcon.ico
+/home/allstar/Riddermark/ToetsApps/TempStudio_WinUI/TempStudio_WinUI/obj/Debug/net7.0/TempStudio_WinUI.csproj.AssemblyReference.cache
+/home/allstar/Riddermark/ToetsApps/TempStudio_WinUI/TempStudio_WinUI/obj/Debug/net7.0/TempStudio_WinUI.d-bfalse.GeneratedMSBuildEditorConfig.editorconfig
+/home/allstar/Riddermark/ToetsApps/TempStudio_WinUI/TempStudio_WinUI/obj/Debug/net7.0/TempStudio_WinUI.AssemblyInfoInputs.cache
+/home/allstar/Riddermark/ToetsApps/TempStudio_WinUI/TempStudio_WinUI/obj/Debug/net7.0/TempStudio_WinUI.AssemblyInfo.cs
+/home/allstar/Riddermark/ToetsApps/TempStudio_WinUI/TempStudio_WinUI/obj/Debug/net7.0/TempStudio_WinUI.csproj.CoreCompileInputs.cache
+/home/allstar/Riddermark/ToetsApps/TempStudio_WinUI/TempStudio_WinUI/obj/Debug/net7.0/TempStudio_WinUI.dll
+/home/allstar/Riddermark/ToetsApps/TempStudio_WinUI/TempStudio_WinUI/obj/Debug/net7.0/refint/TempStudio_WinUI.dll
+/home/allstar/Riddermark/ToetsApps/TempStudio_WinUI/TempStudio_WinUI/obj/Debug/net7.0/TempStudio_WinUI.pdb
